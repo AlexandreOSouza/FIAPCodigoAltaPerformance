@@ -32,7 +32,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Application.FilaDeInteiros">
+  <component name="RunManager" selected="Application.teste">
     <configuration name="FilaDeInteiros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.fiap.estruturaDeDados.fila.FilaDeInteiros" />
       <module name="EstruturasDeDados" />
@@ -79,16 +79,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.fiap.estruturaDeDados.teste" />
+      <module name="EstruturasDeDados" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.fiap.estruturaDeDados.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.server" />
       <item itemvalue="Application.ListaEncadeadaSimples2Nos" />
       <item itemvalue="Application.PilhaDeInteiros" />
       <item itemvalue="Application.FilaDeInteiros" />
+      <item itemvalue="Application.teste" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FilaDeInteiros" />
+        <item itemvalue="Application.teste" />
         <item itemvalue="Application.PilhaDeInteiros" />
+        <item itemvalue="Application.FilaDeInteiros" />
         <item itemvalue="Application.ListaEncadeadaSimples2Nos" />
       </list>
     </recent_temporary>
@@ -104,7 +119,8 @@
       <option name="presentableId" value="Default" />
       <updated>1585262797315</updated>
       <workItem from="1585262803856" duration="4812000" />
-      <workItem from="1585270776459" duration="2546000" />
+      <workItem from="1585270776459" duration="4191000" />
+      <workItem from="1585515039712" duration="7139000" />
     </task>
     <servers />
   </component>
@@ -120,22 +136,26 @@
       <screen x="0" y="30" width="1366" height="738" />
     </state>
     <state x="415" y="185" width="525" height="430" key="#com.intellij.ide.util.TreeClassChooserDialog/0.30.1366.738@0.30.1366.738" timestamp="1585263396730" />
-    <state width="1320" height="121" key="GridCell.Tab.0.bottom" timestamp="1585273958032">
-      <screen x="0" y="30" width="1366" height="738" />
+    <state width="1320" height="38" key="GridCell.Tab.0.bottom" timestamp="1585535307819">
+      <screen x="0" y="342" width="1366" height="738" />
     </state>
-    <state width="1320" height="121" key="GridCell.Tab.0.bottom/0.30.1366.738@0.30.1366.738" timestamp="1585273958032" />
-    <state width="1320" height="121" key="GridCell.Tab.0.center" timestamp="1585273958023">
-      <screen x="0" y="30" width="1366" height="738" />
+    <state width="1320" height="121" key="GridCell.Tab.0.bottom/0.30.1366.738@0.30.1366.738" timestamp="1585276032793" />
+    <state width="1320" height="38" key="GridCell.Tab.0.bottom/0.342.1366.738/1366.0.1920.1080@0.342.1366.738" timestamp="1585535307819" />
+    <state width="1320" height="38" key="GridCell.Tab.0.center" timestamp="1585535307818">
+      <screen x="0" y="342" width="1366" height="738" />
     </state>
-    <state width="1320" height="121" key="GridCell.Tab.0.center/0.30.1366.738@0.30.1366.738" timestamp="1585273958022" />
-    <state width="1320" height="121" key="GridCell.Tab.0.left" timestamp="1585273958017">
-      <screen x="0" y="30" width="1366" height="738" />
+    <state width="1320" height="121" key="GridCell.Tab.0.center/0.30.1366.738@0.30.1366.738" timestamp="1585276032780" />
+    <state width="1320" height="38" key="GridCell.Tab.0.center/0.342.1366.738/1366.0.1920.1080@0.342.1366.738" timestamp="1585535307818" />
+    <state width="1320" height="38" key="GridCell.Tab.0.left" timestamp="1585535307818">
+      <screen x="0" y="342" width="1366" height="738" />
     </state>
-    <state width="1320" height="121" key="GridCell.Tab.0.left/0.30.1366.738@0.30.1366.738" timestamp="1585273958017" />
-    <state width="1320" height="121" key="GridCell.Tab.0.right" timestamp="1585273958024">
-      <screen x="0" y="30" width="1366" height="738" />
+    <state width="1320" height="121" key="GridCell.Tab.0.left/0.30.1366.738@0.30.1366.738" timestamp="1585276032770" />
+    <state width="1320" height="38" key="GridCell.Tab.0.left/0.342.1366.738/1366.0.1920.1080@0.342.1366.738" timestamp="1585535307818" />
+    <state width="1320" height="38" key="GridCell.Tab.0.right" timestamp="1585535307819">
+      <screen x="0" y="342" width="1366" height="738" />
     </state>
-    <state width="1320" height="121" key="GridCell.Tab.0.right/0.30.1366.738@0.30.1366.738" timestamp="1585273958024" />
+    <state width="1320" height="121" key="GridCell.Tab.0.right/0.30.1366.738@0.30.1366.738" timestamp="1585276032787" />
+    <state width="1320" height="38" key="GridCell.Tab.0.right/0.342.1366.738/1366.0.1920.1080@0.342.1366.738" timestamp="1585535307819" />
     <state x="187" y="34" width="992" height="733" key="SettingsEditor" timestamp="1585263366059">
       <screen x="0" y="30" width="1366" height="738" />
     </state>

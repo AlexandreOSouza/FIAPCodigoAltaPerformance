@@ -62,45 +62,82 @@ public class PilhaDeInteiros {
 
         PilhaDeInteiros s = new PilhaDeInteiros();
         Scanner in = new Scanner(System.in);
-
+//
         int item;
         int opcao;
-
+//
         Retorno res = new Retorno();
+//
+//        // inicia a pilha fazendo topo = null
+//        s.INIT();
+//
+//        // invoca metodo TOP para obter dado do no do topo da pilha
+//        res = s.TOP();
+//        if(res.ok) {
+//            System.out.println("Execuçao do TOP: " + res.item);
+//        } else {
+//            System.out.println("Execuçao do TOP: pilha VAZIA");
+//        }
+//
+//        // Repetiçao para inserir elementos na pilha
+//        do {
+//            System.out.println("Digite o valor inteiro para o dado: ");
+//            item = in.nextInt();
+//            s.PUSH(item);
+//            System.out.println("Digite 0 para encerrar o empilhamento ");
+//            opcao = in.nextInt();
+//        } while(opcao != 0);
+//
+//        // Invoca o metodo TOP para obter o dado do no do topo da pilha
+//        res = s.TOP();
+//
+//        if(res.ok) {
+//            System.out.println("Execuçao do TOP: " + res.item);
+//        }
+//
+//        do {
+//            res = s.POP();
+//            if(res.ok) {
+//                System.out.println("Dado retirado: " + res.item);
+//            }
+//        } while(res.ok);
 
-        // inicia a pilha fazendo topo = null
+
         s.INIT();
 
-        // invoca metodo TOP para obter dado do no do topo da pilha
-        res = s.TOP();
-        if(res.ok) {
-            System.out.println("Execuçao do TOP: " + res.item);
-        } else {
-            System.out.println("Execuçao do TOP: pilha VAZIA");
-        }
+        int i=1;
 
-        // Repetiçao para inserir elementos na pilha
+        s.PUSH(1);
+
+        s.PUSH(2);
+
+        s.PUSH(3);
+
+        s.PUSH(4);
+
+        res = s.POP();
+
+        if (res.ok)
+
+            System.out.print(res.item);
+
+        res = s.POP();
+
+        if (res.ok)
+
+            System.out.print(res.item);
+
+        s.PUSH(5);
+
         do {
-            System.out.println("Digite o valor inteiro para o dado: ");
-            item = in.nextInt();
-            s.PUSH(item);
-            System.out.println("Digite 0 para encerrar o empilhamento ");
-            opcao = in.nextInt();
-        } while(opcao != 0);
 
-        // Invoca o metodo TOP para obter o dado do no do topo da pilha
-        res = s.TOP();
-
-        if(res.ok) {
-            System.out.println("Execuçao do TOP: " + res.item);
-        }
-
-        do {
             res = s.POP();
-            if(res.ok) {
-                System.out.println("Dado retirado: " + res.item);
-            }
-        } while(res.ok);
+
+            if (res.ok)
+
+                System.out.print(res.item);
+
+        } while (res.ok);
         in.close();
     }
 
